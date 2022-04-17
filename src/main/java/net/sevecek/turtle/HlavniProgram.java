@@ -10,6 +10,7 @@ public class HlavniProgram {
         zofka = new Turtle();
         zofka.setLocation(500,380);
 
+
         nakresliPrasatko(zofka);
 
         zofka.penUp();
@@ -81,7 +82,7 @@ public class HlavniProgram {
 
         zofka.penUp();
         zofka.turnRight(30);
-        zofka.move(180);
+        zofka.move(230);
 
         /*nakresliOsmiuhelnik(zofka);
 
@@ -91,8 +92,115 @@ public class HlavniProgram {
 
         nakresliKolecko(zofka);*/
 
+        zofka.turnRight(90);
+        zofka.move(500);
+        zofka.turnRight(90);
 
+        napisH(zofka);
 
+        napisE(zofka);
+
+        napisL(zofka);
+
+        napisE(zofka);
+
+        napisN(zofka);
+
+        napisA(zofka);
+
+    }
+
+    private void napisA(Turtle zofka) {
+        zofka.penDown();
+        zofka.turnRight(15);
+        zofka.move(82.5);
+        zofka.turnRight(150);
+        zofka.move(82.5);
+        zofka.penUp();
+        zofka.turnRight(105);
+        zofka.move(40);
+        zofka.turnRight(105);
+
+        zofka.move(40);
+        zofka.turnRight(75);
+        zofka.penDown();
+        zofka.move(13);
+        zofka.penUp();
+        zofka.turnRight(75);
+        zofka.move(40);
+        zofka.turnLeft(75);
+        zofka.move(30);
+        zofka.turnLeft(90);
+    }
+
+    private void napisN(Turtle zofka) {
+        zofka.penDown();
+        zofka.move(80);
+        zofka.turnRight(150);
+        zofka.move(92);
+        zofka.turnLeft(150);
+        zofka.move(80);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(80);
+        zofka.turnLeft(90);
+        zofka.move(30);
+        zofka.turnLeft(90);
+    }
+
+    private void napisL(Turtle zofka) {
+        zofka.move(80);
+        zofka.turnRight(180);
+        zofka.penDown();
+        zofka.move(80);
+        zofka.turnLeft(90);
+        zofka.move(35);
+        zofka.penUp();
+        zofka.move(30);
+        zofka.turnLeft(90);
+    }
+
+    private void napisE(Turtle zofka) {
+        zofka.penDown();
+        zofka.move(80);
+        zofka.turnRight(90);
+        zofka.move(35);
+        zofka.penUp();
+        zofka.turnRight(90);
+        zofka.move(40);
+        zofka.turnRight(90);
+        zofka.penDown();
+        zofka.move(35);
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(40);
+        zofka.turnLeft(90);
+        zofka.penDown();
+        zofka.move(35);
+        zofka.penUp();
+        zofka.move(30);
+        zofka.turnLeft(90);
+    }
+
+    private void napisH(Turtle zofka) {
+        zofka.penDown();
+        zofka.move(80);
+        zofka.turnRight(180);
+        zofka.penUp();
+        zofka.move(40);
+        zofka.turnLeft(90);
+        zofka.penDown();
+        zofka.move(40);
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(40);
+        zofka.turnRight(180);
+        zofka.penDown();
+        zofka.move(80);
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(30);
+        zofka.turnLeft(90);
     }
 
     private void nakresliDomecek(Turtle zofka) {
